@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I.E. Proyecta Tec</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="logo">
+      <span>I.E. PROYECTA TEC</span>
+    </div>
+    <nav class="redes">
+      <a href="#historia">Historia</a>
+      <a href="#carreras">Carreras</a>
+      <a href="#contacto">Contacto</a>
+      
+    </nav>
+  </header>
+
+  <main class="contenedor-principal">
+    
+    <article class="caja-informacion">
+      <h1>Somos una comunidad educativa consolidada</h1>
+      <p class="subtitulo">Carreras Técnicas - Formación Profesional - Certificación</p>
+      <a href="tel:+51999999999" class="btn-llamar">LLÁMENOS</a>
+    </article>
+
+    <article class="caja-formulario" id="contacto">
+      <h2>Contáctenos</h2>
+      <p>Envíenos sus datos y nos pondremos en contacto.</p>
+
+      <form id="formContacto">
+        
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="999 999 999" required>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <input type="text" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje..." required>
+        </div>
+
+        <button type="submit" class="btn-enviar">ENVIAR</button>
+      </form>
+    </article>
+
+  </main>
+
+ 
+  <section id="historia" class="seccion-historia">
+    <div class="historia-grid">
+      <div class="historia-imagen">
+        <img src="images (4).jpg" alt="Comunidad Educativa Proyecta Tec">
+      </div>
+      <div class="historia-texto">
+        <h2>HISTORIA PROYECTA TEC</h2>
+        <p>
+          Nuestra Institución Educativa Proyecta Tec nace con el compromiso firme de servir a la sociedad mediante 
+          una educación técnica superior de alta calidad. Ofrecemos una formación integral centrada en la innovación, 
+          la ética y el desarrollo de competencias tecnológicas alineadas a las exigencias del mercado profesional.
+        </p>
+        <p>
+          Atendemos con especial dedicación la vocación personal de cada estudiante, guiándolos para que descubran sus 
+          habilidades clave y construyan un proyecto de vida sólido. A través de metodologías basadas en proyectos prácticos, 
+          fomentamos el pensamiento crítico, la creatividad y la capacidad de resolver problemas complejos desde el primer ciclo.
+        </p>
+        <p>
+          Nos esforzamos diariamente para consolidar una verdadera Comunidad Educadora en la que docentes, alumnos y egresados 
+          colaboren activamente. Creemos en el aprendizaje continuo y en la tecnología como herramienta fundamental de transformación 
+          social y desarrollo económico para el país.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="carreras" class="seccion-contenido">
+    <h2>Carreras Disponibles</h2>
+    <div class="grilla-carreras">
+      <div class="tarjeta-carrera">
+        <h3>Desarrollo de Software e IA</h3>
+        <p>Aprende a programar sistemas, bases de datos y soluciones basadas en inteligencia artificial.</p>
+      </div>
+      <div class="tarjeta-carrera">
+        <h3>Redes y Ciberseguridad</h3>
+        <p>Especialízate en infraestructura de red, soporte de servidores y protección de datos.</p>
+      </div>
+      <div class="tarjeta-carrera">
+        <h3>Diseño y Marketing Digital</h3>
+        <p>Crea estrategias web, diseño de interfaces e identidades de marca impactantes.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <div id="modalExito" class="pantalla-exito">
+    <div class="contenido-exito">
+      <div class="icono-check">✓</div>
+      <h1>¡Gracias por contactarnos!</h1>
+      <p>¡El mensaje fue enviado con éxito! A la brevedad nos comunicaremos con usted.</p>
+      <button id="btnVolver" class="btn-volver">VOLVER AL SITIO &rarr;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
